@@ -46,14 +46,53 @@ git push [options]
 
 ### Semantic Commit
 
-**feat**: Uma nova funcionalidade.
-**fix**: Uma correção de bug.
-**docs**: Alterações na documentação.
-**style**: Formatação, correção de ponto e vírgulas ausentes, etc.; sem alterações no código.
-**refactor**: Uma alteração no código que não corrige um bug nem adiciona uma nova funcionalidade.
-**perf**: Uma alteração no código que melhora o desempenho.
-**test**: Adição de testes ausentes ou correção de testes existentes.
-**chore**: Alterações no processo de compilação ou em ferramentas e bibliotecas auxiliares, como a geração de documentação.
+->**feat**: Uma nova funcionalidade.
+
+```
+git commit -m "feat: Adiciona login de usuario"
+```
+
+->**fix**: Uma correção de bug.
+
+```
+git commit -m "fix: Corrige validação de email"
+```
+
+->**docs**: Alterações na documentação.
+
+```
+git commit -m "docs: Adiciona documentação do fluxo de login"
+```
+
+->**style**: Formatação, correção de ponto e vírgulas ausentes, etc.; sem alterações no código.
+
+```
+git commit -m "style: Ajusta linter do código"
+```
+
+->**refactor**: Uma alteração no código que não corrige um bug nem adiciona uma nova funcionalidade.
+
+```
+git commit -m "refactor: Ajuste de usabilidade"
+```
+
+->**perf**: Uma alteração no código que melhora o desempenho.
+
+```
+git commit -m "perf: Usar useMemo no componente de pratos"
+```
+
+->**test**: Adição de testes ausentes ou correção de testes existentes.
+
+```
+git commit -m "test: Cria teste para adapter do encriptador"
+```
+
+->**chore**: Alterações no processo de compilação ou em ferramentas e bibliotecas auxiliares, como a geração de documentação.
+
+```
+git commit -m "adiciona express ao projeto"
+```
 
 ### Busca os arquivos do repositório remoto para a máquina local
 
